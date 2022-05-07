@@ -13,6 +13,9 @@ export class ProductListComponent {
   share(product: any) {
     window.alert('The product ' + product + ' has been shared!');
   }
+  OnNotify(){
+  window.alert('Parent Component : Notify button clicked');
+  }
 }
 
 /*
