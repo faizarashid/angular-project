@@ -7,7 +7,7 @@
       {{ product.name }}
     </a>
   </h5>
-  <p *ngIf="product.description">Description : {{ product.description }}</p>
+ <!-- <p *ngIf="product.description">Description : {{ product.description }}</p>
   <p *ngIf="product.price">Price of the product : {{ product.price }}</p>
   <button type="button" (click)="share(product.name)">
     Share Product
@@ -15,6 +15,7 @@
   <app-product-alerts [product]="product"
   (notify)="OnNotify()">
   </app-product-alerts>
+-->
 </div>
 
 <!-- 
